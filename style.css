@@ -1,0 +1,89 @@
+body{
+      margin: 0;
+      padding: 0;
+      background-image:assets/backround;
+  }
+
+  .main
+  {
+      width: 100%;
+      height: 100vh;
+      display: inline-flex;
+      
+  }
+
+  .main .box1
+  {
+      width: 45%;
+      height: 100%;
+  }
+
+  .box2
+  {
+      width: 55%;
+      height: 100%;
+      
+  }
+
+  @media only screen and (max-width: 600px) {
+.main  {
+display: block;
+}
+.main .box1
+{
+display: none;
+}
+.box2
+{
+width: 100%;
+}
+}
+.list
+{
+      width: 100%;
+      background-color: transparent;
+      margin: 2px;
+      border: none;
+}
+
+  
+
+
+
+.cover
+{
+      width: 300px;
+      height: 300px;
+      background-image: url(../assets/first.jpg);
+      background-size: cover;
+      
+}
+
+
+#blur
+{
+      background-image: url(../assets/blur1.png);
+      background-size: cover;
+}
+
+
+progress
+{
+      position: absolute;
+      top: 90%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+}
+
+.brand
+{
+      width: 200px;
+      height: 65px;
+      background-color: transparent;
+      margin: 15px 15px;
+      border-radius: 65px;
+      
+      background-image: url(../assets/brand.png);
+      background-size: contain;
+      background-repeat: no-repeat;
+}
